@@ -41,9 +41,9 @@ body {
 
 .links a{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
-    padding: 0px;
+    padding: 0px 40px;
     font-family: "Michroma", serif;
     font-weight: 400;
     font-style: normal;
@@ -53,6 +53,10 @@ body {
     text-shadow: 0px 2px 4px white;
 }
 
+li.links+li.links::before {
+  content: "-";
+}
+
 .navigation ol{
     list-style: none;
 }
@@ -60,6 +64,19 @@ body {
 
 .links:hover {
     cursor: pointer;
+}
+
+/* paragraph styling */
+
+.text-paragraph {
+  font-family: "Michroma", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;  
+  box-sizing: border-box;
+  width: auto;
+  padding: 10px;
 }
 
 /* soundcloud styling */
