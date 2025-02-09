@@ -128,6 +128,14 @@
 
 
 @media  (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to left, rgba(114, 114, 114, 0.534), rgba(255, 255, 255, 0.486)), url(./IMG/Mobile-BG-Image-White.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+  }
+
   .links a{
     margin-left: 0px;
     margin-right: 0px;
