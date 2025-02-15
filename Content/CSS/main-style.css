@@ -160,6 +160,43 @@
     height: auto;
   }
 
+  .quote-div {
+    position: absolute;
+    top: auto;
+    bottom: 15.5%;
+    right: 0;
+    left: 0;
+    width: 75%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: "Michroma", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.62em;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 2px 6px rgba(0, 0, 0, 0.767);
+    line-height: 1.75em;
+    display: none;
+  }
+
+  .quote {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    width: 80%;
+    height: 80%
+    text-align: center;
+    font-family: "Michroma", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65%;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 2px 6px rgba(0, 0, 0, 0.767);
+    line-height: 1.75em;
+  }
+
   .links a{
     margin-left: 0px;
     margin-right: 0px;
@@ -180,43 +217,33 @@
 
   .images {
     width: 100%;
-    height: 25%;
+    height: 100%;
     display: inline-block;
     position: relative;
   }
 
   .image img {
-    padding: 20%, 30%;
-    margin-bottom: 10%;
+    padding: 1%%;
     box-sizing: content-box;
-    border: 2px solid rgba(255, 255, 255, 0.671);
-    border-radius: 10%;
-    height: 20%;
-    width: 40%;
+    border: 2px solid rgba(242, 245, 224, 0.541);
+    border-radius: 5%;
+    height: 90%;
+    width: 90%;
     text-shadow: 0px, 10px 5px, black;
-    margin: 1%;
+    margin: 10px;
+    opacity: 60%
   }
 
   .footer-soundcloud {
     width: 100%;
-    height: 30px;
-    position: relative;
+    position: absolute;
+    right: 0;
+    left: 0;
     top: auto;
-    bottom: 0;
+    bottom: auto;
     box-sizing: border-box;
-    padding: 0.75px;
+    padding: 0.50px;
   }
 
-  .soundcloud {
-    width: 100%;
-    bottom: 0;
-    margin-top: auto;
-  }
-
-  iframe {  
-      width: 80%;
-      height: 100%;
-      padding: 20px;
-    }
   
 }
