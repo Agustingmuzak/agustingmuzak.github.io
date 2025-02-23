@@ -80,3 +80,15 @@ ul {
     margin-right: 10%;
     margin-left: 10%;
 }
+
+.footer {
+    width: 95%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.soundcloud {
+    border: 2px solid rgba(255, 255, 255, 0.507);
+    box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.356);
+    opacity: 80%;
+}
